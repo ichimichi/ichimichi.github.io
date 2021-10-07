@@ -1,0 +1,1 @@
+var splash=document.getElementById("splash"),root=document.getElementById("root");setTimeout(function(){splash.innerHTML="",root.style.visibility="visible"},5e3);

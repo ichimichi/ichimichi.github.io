@@ -9,7 +9,12 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <div class="splash-screen">
+    <div id="root" style="visibility: hidden">
+      <div class="h-screen flex items-center justify-center">
+        <div class="blink text-2xl">Hello World!</div>
+      </div>
+    </div>
+    <div id="splash" class="splash-screen">
       <div class="splash-loader">
         <div class="splash-cube1"></div>
         <div class="splash-cube2"></div>
@@ -17,6 +22,6 @@
         <div class="splash-cube3"></div>
       </div>
     </div>
-    <script src="bundle.js" defer></script>
+    <script src="bundle-min.js" defer></script>
   </body>
 </html>
